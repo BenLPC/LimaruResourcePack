@@ -1,0 +1,41 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/lead"
+  },
+    "entries": [
+      {
+        "threshold": 1001,
+        "model": {
+          "model": "item/rails/wire/wire_messenger_single",
+          "type": "minecraft:model"
+        }
+      },
+      {
+        "threshold": 1002,
+        "model": {
+          "model": "item/rails/wire/wire_messenger_double",
+          "type": "minecraft:model"
+        }
+      },
+      {
+        "threshold": 1003,
+        "model": {
+          "model": "item/rails/wire/wire_plain_single",
+          "type": "minecraft:model"
+        }
+      },
+      {
+        "threshold": 1004,
+        "model": {
+          "model": "item/rails/wire/wire_rigid_single",
+          "type": "minecraft:model"
+        }
+      }
+    ],
+    "scale": 1
+  }
+}
