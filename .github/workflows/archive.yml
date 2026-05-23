@@ -25,9 +25,3 @@ jobs:
       with:
         filename: 'LimaruResourcePack.zip'
         exclusions: '*.git* *.github* /*node_modules/* .editorconfig CODE_OF_CONDUCT.md CONTRIBUTING.md README.md'
-
-    - name: push changes to remote
-      run: |
-        git add -A
-        git commit -m "[AUTO] New dev pack"
-        git push --force
