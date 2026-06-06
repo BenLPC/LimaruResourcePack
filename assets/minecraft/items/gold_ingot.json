@@ -154,6 +154,48 @@
                     "model": "item/signals/lp/2/signal_dt_2_1_dt2r"
                 }
             },
+{
+                "threshold": 11220,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/ent/2/signal_mn_2_2_mn0"
+                }
+            },
+            {
+                "threshold": 11221,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/ent/2/signal_mn_2_2_mn1"
+                }
+            },
+            {
+                "threshold": 11222,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/ent/2/signal_mn_2_2_mn2"
+                }
+            },
+{
+                "threshold": 11280,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/ent/2/signal_dt_2_0_dt0"
+                }
+            },
+            {
+                "threshold": 11281,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/ent/2/signal_dt_2_0_dt1"
+                }
+            },
+            {
+                "threshold": 11282,
+                "model": {
+                    "type": "model",
+                    "model": "item/signals/ent/2/signal_dt_2_0_dt2"
+                }
+            },
             {
                 "threshold": 99999,
                 "model": {
